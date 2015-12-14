@@ -54,3 +54,4 @@ local.properties
 
 # STS (Spring Tool Suite)
 .springBeansalues ('Clojure');
+/target/
