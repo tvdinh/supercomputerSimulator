@@ -12,9 +12,9 @@ import com.tdinh.academic.supercomputerSimulator.model.Job;
  */
 public class Event implements Comparable<Event> {
 	
-	EventType type;
-	double time;
-	Job job;
+	private EventType type;
+	protected double time;
+	protected Job job;
 	
 	public Event(EventType type, Job j, double t) {
 		this.type = type;
