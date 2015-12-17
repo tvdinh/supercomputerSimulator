@@ -46,6 +46,15 @@ public class Server {
 	 * @return true if successful, false if otherwise
 	 */
 	public boolean initializeJob(Job j) {
+		//TODO
 		return false;
+	}
+	
+	/**
+	 * 
+	 * @return true if the server is idle, false otherwise
+	 */
+	public boolean isIdle() {
+		return (state == ServerState.IDLE);
 	}
 }

@@ -5,7 +5,7 @@
     project="supercomputerSimulator" 
     file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/model/JobQueue.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="313" width="226" x="56" y="40"/>    
+    <position height="-1" width="-1" x="523" y="168"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -16,7 +16,7 @@
     project="supercomputerSimulator" 
     file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/model/Job.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="331" width="226" x="433" y="437"/>    
+    <position height="-1" width="-1" x="570" y="517"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -27,7 +27,7 @@
     project="supercomputerSimulator" 
     file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/model/Job.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="439" width="226" x="433" y="-42"/>    
+    <position height="-1" width="-1" x="207" y="187"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -38,7 +38,7 @@
     project="supercomputerSimulator" 
     file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/event/EventType.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="115" width="224" x="70" y="388"/>    
+    <position height="-1" width="-1" x="307" y="574"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -49,7 +49,7 @@
     project="supercomputerSimulator" 
     file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/event/Event.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="206" y="712"/>    
+    <position height="-1" width="-1" x="39" y="575"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -60,7 +60,7 @@
     project="supercomputerSimulator" 
     file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/event/Departure.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="454" y="924"/>    
+    <position height="-1" width="-1" x="225" y="842"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -71,49 +71,118 @@
     project="supercomputerSimulator" 
     file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/event/Arrival.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="115" width="224" x="53" y="865"/>    
+    <position height="-1" width="-1" x="-72" y="847"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <nesting id="9">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </nesting>  
-  <association id="10">    
+  <class id="8" language="java" name="com.tdinh.academic.supercomputerSimulator.model.Server" 
+    project="supercomputerSimulator" 
+    file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/model/Server.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="856" y="756"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.tdinh.academic.supercomputerSimulator.model.ServerPool" 
+    project="supercomputerSimulator" 
+    file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/model/ServerPool.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="850" y="464"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.tdinh.academic.supercomputerSimulator.model.QueueSystem" 
+    project="supercomputerSimulator" 
+    file="/supercomputerSimulator/src/main/java/com/tdinh/academic/supercomputerSimulator/model/QueueSystem.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="151" width="226" x="732" y="142"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="11">    
     <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="11" name="job"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="13">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="14" name="type"/>      
-      <multiplicity id="15" minimum="0" maximum="1"/>    
+      <attribute id="12" name="type">        
+        <position height="0" width="0" x="125" y="129"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="125" y="129"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="16">    
+  <generalization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="15">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="17" name="q"/>      
-      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+      <attribute id="16" name="q">        
+        <position height="0" width="0" x="-339" y="10"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-339" y="10"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="19">    
-    <end type="SOURCE" refId="6"/>    
+  <nesting id="18">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <association id="19">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="20" name="pool"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="5"/>  
   </generalization>  
+  <association id="23">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="24" name="jobQueues"/>      
+      <multiplicity id="25" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="27" name="job">        
+        <position height="0" width="0" x="-339" y="10"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-339" y="10"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="30" name="serverPools"/>      
+      <multiplicity id="31" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
